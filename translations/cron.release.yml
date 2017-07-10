@@ -1,3 +1,7 @@
 description: 'Giải phóng khoá cron hệ thống để cho phép chạy lại cron'
 messages:
     released: 'Khoá cron đã giải phóng thành công'
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"

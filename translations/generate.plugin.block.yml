@@ -16,6 +16,7 @@ questions:
     plugin-id: 'Nhập plugin id'
     inputs: common.questions.inputs
     services: common.questions.services
+    theme-region: 'Enter the theme region to render the Plugin Block.'
 messages:
     inputs: "\nBạn có thể thêm trường input để tạo các thiết lập đặc biệt trong block.\nĐây là tùy chọn, nhấn <info>enter</info> đến <info>continue</info>"
     invalid-theme-region: 'Region "%s" không hợp lệ'

@@ -9,3 +9,10 @@ messages:
     event-deleted: 'Sự kiện "%s" đã bị xóa'
     clear-error: 'Tiến trình dọn dẹp thất bại, Vui lòng kiểm tra các filters đã được sử dụng'
     clear-sucess: 'Dọn dẹp thành công'
+examples:
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

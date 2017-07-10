@@ -1,4 +1,5 @@
 description: 'Hiển thị các module hiện có cho ứng dụng'
+module: 'Module name'
 options:
     status: 'Trạng thái module [enabled|disabled]'
     type: 'Loại Module [core|no-core]'
@@ -18,3 +19,10 @@ messages:
     no-results: 'Module "%s" was not found in the repository'
     enabled: Bật
     disabled: Tắt
+examples:
+    -
+        description: 'Display all installed modules'
+        execution: 'drupal mod --status=installed'
+    -
+        description: 'Display all installed and no core modules'
+        execution: 'drupal mod --status=installed --type=no-core'

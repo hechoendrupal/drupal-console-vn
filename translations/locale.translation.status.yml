@@ -15,3 +15,4 @@ messages:
     local-file-not-found: 'Không tìm thấy file tại "%s"'
     translation-not-determined: 'Không thể xác định được vị trí tập tin dịch.'
     translation-project-updated: 'Đã cập nhật'
+    translation-project-available: 'New translation available'

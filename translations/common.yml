@@ -2,6 +2,8 @@ options:
     class: 'Class name'
     events: 'Nạp các sự kiện từ container'
     module: 'Tên module.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Nạp các dịch vụ từ container.'
     tags: 'Thết lập các tags dịch vụ từ container.'
     inputs: 'Tạo các đầu vào trong một form.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Enter the Class name'
     module: 'Nhập tên module'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Bạn yêu cầu xác nhận một hành động phát sinh phải không?'
     canceled: 'Lệnh phát sinh đã bị hủy bỏ'
     events:

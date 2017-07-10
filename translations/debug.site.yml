@@ -4,6 +4,11 @@ messages:
     site: Site
     host: Host
     root: Root
-    directory-not-found: 'Không tìm thấy các sites thư mục cục bộ'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'Lỗi với key cá nhân'
     connect-error: 'Lỗi khi kết nối đến máy từ xa'
+    directory-not-found: 'Không tìm thấy các sites thư mục cục bộ'
+options:
+    target: Target
+    property: Property

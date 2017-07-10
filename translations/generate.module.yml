@@ -13,6 +13,7 @@ options:
     composer: 'Thêm một file composer.json'
     dependencies: 'Sự phụ thuộc của module chia ra bởi dấu phẩy (ví dụ context, panels)'
     test: 'Tạo một test class'
+    twigtemplate: 'Generate theme template'
     controller: 'Trình điều khiển mặc định'
 questions:
     module: 'Nhập một tên module'
@@ -27,6 +28,7 @@ questions:
     composer: 'Bạn có muốn thêm một file composer.json vào module của bạn không'
     dependencies: 'Bạn có muốn thêm sự phụ thuộc của module không'
     test: 'Bạn có muốn tạo một lớp đơn vị thử nghiệm không'
+    twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Bạn có muốn tạo một trình điều khiển mặc định không'
 warnings:
     module-unavailable: 'Cảnh báo các modules sau chưa có sẵn trong môi trường cục bộ "%s"'

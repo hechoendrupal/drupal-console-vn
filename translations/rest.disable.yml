@@ -7,3 +7,4 @@ questions:
 messages:
     invalid-rest-id: 'Rest ID "%s" không hợp lệ'
     success: 'Rest ID "%s" disabled'
+    already-disabled: 'Rest ID "%s" was already disabled'

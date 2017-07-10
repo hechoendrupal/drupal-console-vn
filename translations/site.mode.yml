@@ -1,6 +1,8 @@
 description: 'Chuyển đổi cấu hình hiệu năng của hệ thống'
 arguments:
     environment: 'Tên môi trường (dev|prod)'
+options:
+    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
 messages:
     configuration: 'Tên phần cấu hình'
     configuration-key: 'Chìa khóa phần cấu hình'
