@@ -1,4 +1,4 @@
-description: 'Copy configuration files to user home directory.'
+description: '8888 Copy configuration files to user home directory.'
 options:
     destination: 'Destination directory to copy files'
     override: 'Override configurations files'
