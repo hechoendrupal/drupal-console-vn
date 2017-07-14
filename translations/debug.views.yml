@@ -16,3 +16,7 @@ messages:
     display-name: Tên
     display-description: 'Mô tả'
     display-paths: 'Các đường dẫn'
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

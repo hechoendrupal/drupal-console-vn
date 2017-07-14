@@ -17,3 +17,7 @@ questions:
     plugin-states: 'Xin vui lòng lựa chọn trạng thái thực thi REST trong tài nguyên của bạn (GET là chọn lựa mặc định)'
 messages:
     selected-states: 'Trạng thái đã được chọn'
+examples:
+    -
+        description: 'Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type'
+        execution: "drupal generate:plugin:rest:resource  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultRestResource\"  \\\n  --plugin-id=\"default_rest_resource\"  \\\n  --plugin-label=\"Default rest resource\"  \\\n  --plugin-url=\"http://rest.resources.example.com\"  \\\n  --plugin-states='GET'\n"

@@ -13,3 +13,10 @@ messages:
     regions: 'Các vùng'
     invalid-theme: 'Theme "%s" không hợp lệ'
     theme-properties: Properties
+examples:
+    -
+        description: 'List of themes on the site'
+        execution: 'drupal debug:theme'
+    -
+        description: 'Bartik theme information'
+        execution: 'drupal debug:theme bartik'

@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: ' Xây dựng lại định tuyến, xin chờ trong ít phút'
     completed: 'Xây dựng lại các định tuyến đã xong.'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

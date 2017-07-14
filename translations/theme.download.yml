@@ -13,6 +13,7 @@ messages:
     select-release: 'Hãy lựa chọn bản phát hành yêu thích của bạn'
     outside-drupal: 'Không thể xác định được thư mục Drupal root. Sử dụng --root để thiết lập điểm đến, thư mục hiện tại sẽ được sử dụng thay thế.'
     error-creating-folder: 'Lỗi khi tạo thư mục "%s", xin hãy kiểm tra lại permssions'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

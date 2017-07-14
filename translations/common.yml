@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'Bạn muốn tạo ra một cấu trúc dạng form phải không?'
         label: 'Nhập nhãn hiệu'
-        machine_name: 'Nhập tên máy'
+        machine-name: 'Input machine name'
         permission: 'Bạn muốn tạo ra các quyền không?'
         type: Kiểu
         invalid: 'Kiểu field "%s" is không hợp lệ.'
@@ -34,6 +34,7 @@ questions:
         weight: 'Trọng số cho đầu vào'
         title: Title
         fieldset: Fieldset
+        machine_name: 'Nhập tên máy'
 errors:
     module-dependency: 'Thiếu module dependency "%s"'
     class-name-empty: 'Tên của lớp không thể để trống'

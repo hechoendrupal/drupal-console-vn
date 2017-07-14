@@ -19,3 +19,7 @@ messages:
     theme-default-success: 'Theme "%s" đã được cài đặt thành công thành theme mặc định'
     disabled-themes: 'Chỉ các themes đã bị tắt sẽ được liệt kê trong tự động hoàn thành'
     invalid-theme-default: 'Tùy chỉnh mặc định chỉ phù hợp cho một theme'
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

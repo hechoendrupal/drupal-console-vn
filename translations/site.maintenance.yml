@@ -6,3 +6,10 @@ messages:
     maintenance-off: 'Đang tắt chế độ bảo trì'
 errors:
     invalid-mode: 'Chế độ bảo trì không hợp lệ'
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"
