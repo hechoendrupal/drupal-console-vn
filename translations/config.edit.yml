@@ -6,6 +6,7 @@ questions:
     config-name: 'Chọn một đơn vị cấu hình'
 messages:
     no-directory: 'Một lỗi đã xuất hiện trong khi đang tạo thư mục của bạn ở'
+    choose-configuration: 'Choose a configuration'
 examples:
     -
         description: 'Edit system cron configurations with "vim" (default editor).'
