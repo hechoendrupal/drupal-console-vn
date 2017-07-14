@@ -5,6 +5,7 @@ messages:
     welcome: 'Chào mừng tới vùng cache: xây dựng lại lệnh'
     rebuild: 'Đang xây dựng lại cache(s), xin vui lòng đợi trong giây lát.'
     completed: 'Đã thực hiện việc dọn dẹp cache(s).'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: 'Cache "%s" là không hợp lệ.'
 questions:
     cache: 'Chọn cache.'

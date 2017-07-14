@@ -14,3 +14,7 @@ questions:
     container-aware: 'Dòng lệnh có nhận thức được sự cài đặt drupal site khi thực hiện hay không?.'
 messages:
     title-not-empty: 'Tiêu đề không được để trống'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

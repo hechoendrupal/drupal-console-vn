@@ -18,3 +18,7 @@ messages:
     invalid-theme-default: 'Tùy chỉnh mặc định chỉ phù hợp cho một theme'
     error-default-theme: 'Theme "%s" là theme mặc định và không thể bị gỡ bỏ.'
     error-admin-theme: 'Theme "%s" là admin theme và không thể bị gỡ bỏ.'
+examples:
+    -
+        description: 'Uninstall theme specifying the name'
+        execution: "drupal theme:uninstall  mytheme\n"

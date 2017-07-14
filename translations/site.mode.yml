@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'Lỗi sao chép file'
     error-writing-file: 'Lỗi sao chép file'
     services-file-overwritten: 'Các files dịch vụ "%s" đã bị ghi đè'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"

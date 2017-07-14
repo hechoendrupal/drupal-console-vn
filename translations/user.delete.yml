@@ -15,6 +15,10 @@ messages:
 errors:
     invalid-user-id: 'id người dùng "%s" không hợp lệ'
     invalid-user: 'id người dùng "%s" không hợp lệ'
-arguments:
-    user-id: 'id người dùng sẽ bị xóa'
-    roles: 'Vai trò liên quan đến người dùng sẽ bị xóa'
+examples:
+    -
+        description: 'Delete user specifying the id and the user role'
+        execution: "drupal user:delete  \\\n  --user-id=\"2\"\n  --roles='authenticated'"
+    -
+        description: 'Delete user specifying its id'
+        execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"

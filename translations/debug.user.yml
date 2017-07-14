@@ -15,3 +15,7 @@ messages:
     username: 'Tên người dùng'
     roles: 'Vai trò'
     status: 'Trạng thái'
+examples:
+    -
+        description: 'Users list on the site'
+        execution: "drupal debug:user\n"

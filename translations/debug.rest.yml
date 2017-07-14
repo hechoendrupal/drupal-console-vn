@@ -6,12 +6,18 @@ options:
 messages:
     id: 'Rest ID'
     label: Label
-    canonical_url: 'Canonical URL'
+    canonical-url: 'Canonical URL'
     status: 'Trạng thái'
     provider: 'Nhà cung cấp'
     enabled: Bật
     disabled: Tắt
     rest-state: 'Các trạng thái REST'
     supported-formats: 'Các định dạng hỗ trợ'
-    supported_auth: 'Các nhà cũng cáp ủy quyền hỗ trợ'
+    supported-auth: 'Supported Authentication Providers'
     not-found: 'Không tìm thấy rest resource "%s"'
+    canonical_url: 'Canonical URL'
+    supported_auth: 'Các nhà cũng cáp ủy quyền hỗ trợ'
+examples:
+    -
+        description: 'Displays rest hooks'
+        execution: "drupal debug:rest\n"

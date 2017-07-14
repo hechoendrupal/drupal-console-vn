@@ -6,3 +6,7 @@ messages:
     description: 'Mô tả'
     no-migrations: 'Không có sẵn các phần chuyển đổi cố thực thi dòng lệnh: migrate:setup:migrations'
     tags: Tags
+examples:
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

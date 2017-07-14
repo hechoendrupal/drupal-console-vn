@@ -5,3 +5,7 @@ messages:
     site: Site
     directory: Directory
     site-format: 'Sites được viết bằng cách dùng định dạng: <port>.<domain>.<path>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"
