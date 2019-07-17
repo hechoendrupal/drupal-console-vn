@@ -16,6 +16,7 @@ messages:
     name: Name
     invalid-vocabularies: 'Vocabularie(s) "%s" là không hợp lệ'
     created-terms: 'Đã tạo "%s" terms thành công'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'Provide the vocabulary term name.'

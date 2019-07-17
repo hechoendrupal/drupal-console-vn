@@ -2,19 +2,21 @@ description: 'Xóa người dùng cho ứng dụng'
 help: 'Lệnh <info>user:delete</info> giúp bạn xóa người dùng.'
 welcome: 'Chào mừng đến với Drupal user delete'
 options:
-    user-id: 'User id to be deleted'
+    user: 'User name/id to be deleted'
     roles: 'Roles associated to users to be deleted'
+    user-id: 'User id to be deleted'
 questions:
-    user-id: 'id người dùng sẽ bị xóa (trống bỏ qua)'
+    user: 'User name/id to be deleted (empty to skip)'
     roles: 'Chọn (các) vai trò liên quan đến người dùng sẽ bị xóa'
+    user-id: 'id người dùng sẽ bị xóa (trống bỏ qua)'
 messages:
     user-id: 'ID người dùng'
     username: 'Tên người dùng'
     user-deleted: 'Đã xóa thành công người dùng "%s"'
     users-deleted: 'Các người dùng "%s" đã được xóa thành công'
 errors:
-    invalid-user-id: 'id người dùng "%s" không hợp lệ'
     invalid-user: 'id người dùng "%s" không hợp lệ'
+    invalid-user-id: 'id người dùng "%s" không hợp lệ'
 examples:
     -
         description: 'Delete user specifying the id and the user role'
@@ -22,3 +24,6 @@ examples:
     -
         description: 'Delete user specifying its id'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"
+    -
+        description: 'Delete users with the role "authenticated"'
+        execution: "drupal user:delete  \\\n  --role=\"authenticated\"\n"

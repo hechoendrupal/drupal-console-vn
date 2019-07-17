@@ -1,4 +1,8 @@
 description: 'Thêm một ngôn ngữ được hỗ trợ bởi site của bạn'
 messages:
     invalid-language: 'Ngôn ngữ "%s" là ngôn ngữ không hợp lệ'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: 'Ngôn ngữ "%s" được thêm thành công.'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

@@ -1,9 +1,11 @@
 description: 'Dump cấu trúc và nội dung của 1 cơ sở dữ liệu'
 arguments:
     database: 'Database key từ settings.php'
+    target: 'Database target from settings.php'
 options:
     file: ' Tên file cho database backup của bạn'
     gz: 'Pass this option if you want the sql result file gzipped'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'Database exported to:'
 examples:

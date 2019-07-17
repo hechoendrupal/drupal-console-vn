@@ -7,6 +7,7 @@ options:
     limit: 'Bạn muốn tạo bao nhiêu node?'
     title-words: 'Maximum number of words in node titles'
     time-range: 'How far back in time should the nodes be dated'
+    revision: 'Create revisions'
 questions:
     content-type: 'Chọn content type(s) để sử dụng cho node creation'
     limit: 'Nhập vào bao nhiêu node bạn muốn generate.'
@@ -19,6 +20,7 @@ questions:
         - 'Cách đây 1 tuần'
         - 'Cách đây 1 tháng'
         - 'Cách đây 1 năm'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Node Id'
     content-type: 'Content type'
@@ -26,6 +28,7 @@ messages:
     created: 'Created Time'
     invalid-content-types: 'Content types "%s" là không hợp lệ'
     created-nodes: 'Created "%s" nodes successfully'
+    error: 'Error creating nodes: "%s"'
     generated-content: 'Đã tạo "%s" nodes thành công'
 examples:
     -

@@ -1,5 +1,6 @@
 description: 'Tạo một config entity mới'
 help: ''
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
     module: common.options.module
     entity-class: 'Lớp config entity'

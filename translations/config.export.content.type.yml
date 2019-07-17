@@ -4,13 +4,20 @@ arguments:
     content_type: 'Kiểu nội dung được xuất'
 questions:
     content-type: 'Content Type to be exported'
+    remove-uuid: 'Content Type to be exported without uuid key.'
     optional-config: 'Xuất loại nội dung như một cấu hình tuỳ chọn'
+    all: 'All content types'
+    remove-config-hash: 'Content type to be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
     content_type: 'Kiểu nội dung được xuất'
 messages:
     content-type-exported: 'Exporting content type'
     content_type_exported: 'Đang xuất loại nội dung'
 options:
     optional-config: 'Xuất loại nội dung như một cấu hình YAML tuỳ chọn trong module của bạn'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
     -
         description: 'Provide a content type  and module name'
