@@ -1,6 +1,6 @@
 options:
     env: 'Tên môi trường'
-    no-debug: 'Tắt chế độ debug'
+    debug: 'Switches on debug mode'
     learning: 'Sinh ra chi tiết mã thực thi'
     generate-chain: 'In các lựa chọn thi hành và các đối số dạng yaml, để sử dụng trong chuỗi lệnh'
     generate-inline: 'In các lựa chọn thi hành và các đối số dạng inline, để sử dụng sau'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Disable ANSI output'
     no-interaction: 'Do not ask any interactive question'
     check-fix: 'Attempt to fix any missing configuration.'
+    no-debug: 'Tắt chế độ debug'
 arguments:
     command: 'The command to execute'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'Các files được khởi tạo hoặc đã tải lên'
         copied: 'Các files đã được sao chép'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Để tạo ra các trang, nó cần thiết để định nghĩa các routes cho chúng.\nMột route tương ứng một URL đến một controller. Nó định nghĩa với các chức năng hoặc phương thức sẽ được gọi khi một URL được truy cập.\nNếu người dùng truy cập http://drupal8.dev/{{ route }}, hệ thống routing sẽ tìm kiếm một route với đường dẫn đó. Trong trường hợp này nó sẽ tìm một cái phù hợp, và thi hành _controller callback. Trong trường hợp này callback được định nghĩa như một tên lớp (\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nand a method (\"{{ route.method }}\")."
     autocomplete: "Bash or Zsh: Thêm dòng này vào file cấu hình của bạn:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Tạo một symbolic link\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'Command"%s" là chưa được định nghĩa'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'đường dẫn site'

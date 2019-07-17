@@ -25,6 +25,7 @@ messages:
     username: Username
     created: 'Created Time'
     created-users: 'Users "%s" đã được tạo thành công'
+    error: 'Error creating users: "%s"'
 examples:
     -
         description: 'Provide the user role.'

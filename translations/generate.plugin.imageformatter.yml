@@ -1,5 +1,6 @@
 description: 'Phát sinh một image formatter plugin.'
 help: 'Câu lệnh <info>generate:plugin:imageformatter</info> giúp bạn phát sinh một image formatter plugin mới.'
+welcome: 'Welcome to the Drupal Image Formatter Plugin generator'
 options:
     module: common.options.module
     class: 'Tên plugin class'

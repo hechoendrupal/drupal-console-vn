@@ -22,6 +22,9 @@ questions:
         confirm: 'Bạn yêu cầu xác nhận một hành động phát sinh phải không?'
         message: "\nGõ tên sự kiện hoặc dùng phím lên hoặc phím xuống.\nĐây là tuỳ chọn, nhấn <info>enter</info> để <info>tiếp tục</info>\n"
         name: 'Nhập tên dịch vụ của bạn'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Bạn muốn tạo ra một cấu trúc dạng form phải không?'
         label: 'Nhập nhãn hiệu'
@@ -34,6 +37,7 @@ questions:
         weight: 'Trọng số cho đầu vào'
         title: Title
         fieldset: Fieldset
+        new-field: 'Enter a new field properties'
         machine_name: 'Nhập tên máy'
 errors:
     module-dependency: 'Thiếu module dependency "%s"'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Nhập Drupal phiên bản lõi'
     move-phar: 'Accessing console from anywhere on your system'
     quick-start: 'Download, install and serve Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'

@@ -4,10 +4,12 @@ messages:
     site: Site
     host: Host
     root: Root
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 'Lỗi với key cá nhân'
     connect-error: 'Lỗi khi kết nối đến máy từ xa'
+    not-sites: 'No sites defined'
     directory-not-found: 'Không tìm thấy các sites thư mục cục bộ'
 options:
     target: Target

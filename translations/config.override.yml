@@ -8,12 +8,16 @@ arguments:
     key: Khóa
     value: 'Giá trị'
     config-name: 'Tên cấu hình.'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'Tên cấu hình'
     configuration-key: 'Cấu hình khóa'
     original: 'Giá trị gốc'
     updated: 'Ghi đè giá trị'
     invalid-name: 'Config object "%s", does not exists'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: 'Définir la valeur de "flood" du module Contact à 10.'

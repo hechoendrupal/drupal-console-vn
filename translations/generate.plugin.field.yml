@@ -31,6 +31,8 @@ questions:
     field-type: 'Nhập field type mà formatter và widget plugin có thể được sử dụng với'
     default-widget: 'Nhập field widget mặc định của field type plugin'
     default-formatter: 'Nhập field formatter mặc định của field type plugin'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

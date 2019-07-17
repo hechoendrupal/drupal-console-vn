@@ -3,6 +3,9 @@ options:
     file: 'Path to an archive file of configuration to import.'
     directory: 'Path to a directory of configuration to import.'
     remove-files: 'Remove files after synchronization.'
+    skip-uuid: 'Skip uuid from files'
+questions:
+    directory: 'Enter the directory name to import the configuration files.'
 messages:
     config_files_imported: 'Danh sách của các file cấu hình'
     imported: 'Cấu hình đã được import thành công.'

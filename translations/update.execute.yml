@@ -1,12 +1,24 @@
 description: 'Tiến hành một hàm cụ thể cập nhật N trong một module, hoặc tiến hành tất cả'
-options:
-    update-n: 'Hàm cập nhật N cụ thể để được tiến hành'
+questions:
+    update: 'Do you want to run the specified pending updates?'
+    post-update: 'Do you want to run the specified pending post updates?'
+arguments:
+    module: 'Module name'
+    update-n: 'Specific Update N function to be executed'
 messages:
     no-module-updates: 'Không có các cập nhật có sẵn cho module "%s"'
     executing-update: 'Đang tiến hành hàm cập nhật "%s" của module "%s"'
+    executing-post-update: 'Executing post update function "%s" of module "%s"'
     module-update-function-not-found: 'Module "%s" không có hàm cập nhật cho "%s"'
     executing-required-previous-updates: 'Đang tiến hành các cập nhật được yêu cầu trước'
+    no-pending-updates: 'There aren''t updates available'
+    no-pending-post-updates: 'There aren''t post updates available'
+    pending-post-updates: 'There are the following post updates available:'
+    pending-updates: 'There are the following updates available:'
 examples:
     -
         description: 'Update all entities'
         execution: "drupal update:execute\n"
+    -
+        description: 'Execute updates for system module'
+        execution: "drupal update:execute system\n"

@@ -1,11 +1,17 @@
 description: 'Quay lại một url đăng nhập của người dùng một lần.'
 options:
+    user: 'User name/id.'
     user-id: 'ID người dùng.'
 messages:
     url: 'Đăng nhập một lần cho "%s": "%s"'
+questions:
+    user: 'Enter User name/id'
 errors:
     invalid-user: 'Không thể tải entity của người dùng (User ID: "%s").'
 examples:
     -
         description: 'Get one time login url for user id 1'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Get one time login url for username jmolivas'
+        execution: 'drupal user:login:url jmolivas'

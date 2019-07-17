@@ -30,6 +30,8 @@ questions:
     test: 'Bạn có muốn tạo một lớp đơn vị thử nghiệm không'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Bạn có muốn tạo một trình điều khiển mặc định không'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Cảnh báo các modules sau chưa có sẵn trong môi trường cục bộ "%s"'
 errors:
